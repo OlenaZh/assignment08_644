@@ -111,7 +111,7 @@ for (const i in leastFavMovies) {
 window.console.log(moviesIHate)*/
 
 //STEP 9
-var i;
+/*var i;
 const movies = []
 movies [0] = "Movie1";
 movies [1] = "Movie2";
@@ -126,16 +126,78 @@ leastFavMovies [0] = "Movie8";
 leastFavMovies [1] = "Movie9";
 leastFavMovies [2] = "Movie10";
 
-window.console.log(movies.concat(leastFavMovies).reverse());
-
+window.console.log(movies.concat(leastFavMovies).reverse());*/
 
 //STEP 10
 
+/*const movies = []
+movies [0] = "Movie1";
+movies [1] = "Movie2";
+movies [2] = "Movie3";
+movies [3] = "Movie4";
+movies [4] = "Movie5";
+movies [5] = "Movie6";
+movies [6] = "Movie7";
+
+const leastFavMovies = []
+leastFavMovies [0] = "Movie8";
+leastFavMovies [1] = "Movie9";
+leastFavMovies [2] = "Movie10";
+
+const allMovies = movies.concat(leastFavMovies);
+const lastItem = allMovies[allMovies.length - 1]
+;
+window.console.log(lastItem)*/
+
 //STEP 11
+/*const movies = []
+movies [0] = "Movie1";
+movies [1] = "Movie2";
+movies [2] = "Movie3";
+movies [3] = "Movie4";
+movies [4] = "Movie5";
+movies [5] = "Movie6";
+movies [6] = "Movie7";
+
+const leastFavMovies = []
+leastFavMovies [0] = "Movie8";
+leastFavMovies [1] = "Movie9";
+leastFavMovies [2] = "Movie10";
+
+const allMovies = movies.concat(leastFavMovies);
+const firstItem = allMovies[0]
+;
+window.console.log(firstItem)*/
 
 //STEP 12
+/*const movies = []
+movies [0] = "Movie1";
+movies [1] = "Movie2";
+movies [2] = "Movie3";
+movies [3] = "Movie4";
+movies [4] = "Movie5";
+movies [5] = "Movie6";
+movies [6] = "Movie7";
+
+const leastFavMovies = []
+leastFavMovies [0] = "Movie8";
+leastFavMovies [1] = "Movie9";
+leastFavMovies [2] = "Movie10";
+
+const allMovies = movies.concat(leastFavMovies);
+allMovies.splice(7,8, "MovieILike1", "MovieILike2", "MovieILike3")
+window.console.log(allMovies)*/
 
 //STEP 13
+var i;
+var favMovies = [["Movie1", 1], ["Movie2", 2], ["Movie3", 3],["Movie4", 4], ["Movie5", 5]];
+/*for (i=0; i < favMovies.length; i +=1) {
+ window.console.log(favMovies[i] [0] + "");   
+}*/
+favMovies.forEach(function(item) {
+    window.console.log(item[0] + " ");   
+})
+
 
 //STEP 14
 
